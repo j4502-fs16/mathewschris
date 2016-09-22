@@ -1,14 +1,21 @@
+html {
+	font-size: 100%
+}
+
 p {
 	color: #666666;
-    font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Lora', Georgia, "Times New Roman", serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
 
 h1 {
-    font-family: Georgia, "Times New Roman", serif;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 2.5rem;
 }
 
 body{
-	background-color:#ebe3ce;
+	background-color:#96CEB4;
 }
 
 #container{
@@ -33,16 +40,16 @@ body{
 #nav a:link, a:visited {
 	display:block;
     color: #ffffff;
-    background-color: #98bf21;
+    background-color: #FFCC5C;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+		font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
 #nav a:hover, a:active {
-    background-color: #7a991a;
+    background-color: #FF6F69;
 }
 
 .caption {
