@@ -54,7 +54,7 @@ body{
 
 .caption {
     color: black;
-    font-family: Georgia, "Times New Roman", serif;
+		font-family: 'Lora', Georgia, "Times New Roman", serif;
     font-style: italic;
     font-size: 0.8em;
     margin-top: 0;
@@ -63,7 +63,7 @@ body{
 
 #footer {
     color: black;
-    font-family: Georgia, "Times New Roman", serif;
+		font-family: 'Lora', Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
 }
