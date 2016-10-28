@@ -131,5 +131,24 @@ flex-wrap: wrap;
 		flex-direction: row;
 		justify-content: flex-start;
 		justify-content: space-around;/*puts equal amounts of space around each item*/
-
 	}
+
+	.aside, .footer{
+  flex: 1 100%;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.aside {
+      flex: 1 auto;
+		}
+
+.aside-2{
+	order: 3;
+}
