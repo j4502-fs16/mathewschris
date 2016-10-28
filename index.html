@@ -8,19 +8,23 @@
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|PT+Sans" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="flexbox.css"/>
   </head>
 
   <body>
 
     <div id="container">
 
+      <div class="wrapper">
+
       <div id="header">
-        <ul id="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="oldindex.html">Unstyled Site</a></li>
-            <li><a href="#">Things</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
+      <div class="navcontainer">
+        <div class="item-1 item">About</div>
+          <div class="item-2 item">Unstyled Site</div>
+            <div class="item-3 item">Things</div>
+              <div class="item-4 item">Stuff</div>
+      </div>
+
 
         <h1>Chris Mathews</h1>
     </div>
@@ -36,9 +40,12 @@
     <p>
       Here is another meaningless line of text. <em>I've even added some italics in here to spice it up a bit!</em> Isn't this the best website ever?
     </p>
+    <aside class="aside aside-2">Aside 2</aside>
+
       <p id="footer">
         Content copyright &copy; Chris Mathews 2016</p>
     </div>
+  </div>
   </body>
 
 </html>
