@@ -54,7 +54,9 @@ body{
 }
 
 .aside-2 {
-  background: hotpink;
+  background: skyblue;
+	display: block;
+	align-items: flex-end;
 }
 
 
