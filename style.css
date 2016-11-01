@@ -50,7 +50,8 @@ body{
 	background: #f1b82d;
 	border-radius: 3px;
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-	font-size: 1.5rem;
+	font-size: 1rem;
+	font-style: bold;
 }
 
 .aside-2 {
@@ -113,25 +114,53 @@ align-content: stretch;/*default; stretches items to take up space*/
 flex-wrap: wrap;
 }
 
-@media (min-width: 0px) {
+@media screen and (min-width: 0px) {
 	.navcontainer {
 		flex-direction: column;
 		justify-content: flex-start;
 	}
+	p {
+		width: 95%;
+		margin: 1em auto;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.navcontainer {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	p {
+		width: 95%;
+		margin: 1em auto;
+	}
+}
 
 @media (min-width: 599px) {
 	.navcontainer {
-		flex-direction: column;
+		flex-direction: row;;
 		justify-content: flex-start;
+		justify-content: space-around;/*puts equal amounts of space around each item*/
 	}
+	p {
+		width: 80%;
+		margin: 1.5em auto;
+	}
+}
 
 
-@media (min-width: 799px) {
+@media (min-width: 1000px) {
 	.navcontainer {
 		flex-direction: row;
 		justify-content: flex-start;
 		justify-content: space-around;/*puts equal amounts of space around each item*/
 	}
+	p {
+		width: 80%;
+		max-width: 60em;
+		margin: 1.5em auto;
+	}
+}
 
 	.aside, .footer {
   flex: 1 100%;
@@ -140,9 +169,7 @@ flex-wrap: wrap;
 
 .wrapper {
   display: flex;
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
+  flex-flow: wrap;
 }
 
 .aside {
