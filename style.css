@@ -54,12 +54,12 @@ body{
 	font-style: bold;
 }
 
-.aside-2 {
+#sidebar {
   background: skyblue;
 	display: block;
-	align-items: flex-end;
-	height: 100%;
-
+	float: right;
+	height: 500px;
+	width: 150px;
 }
 
 
@@ -177,7 +177,7 @@ flex-wrap: wrap;
   flex-flow: wrap;
 }
 
-.aside {
+.sidebar {
       flex: 1 auto;
 		}
 
