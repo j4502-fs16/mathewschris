@@ -2,7 +2,7 @@ html {
 	font-size: 100%
 }
 
-p {
+p, footer {
 	color: #666666;
 	font-family: 'Lora', Georgia, "Times New Roman", serif;
 	font-size: 1rem;
@@ -30,7 +30,7 @@ body{
     text-decoration: none;
 }
 
-.header, .main, .aside, .footer{
+.header, .main, .footer{
   flex: 1 100%;
   padding: 10px;
 }
@@ -60,6 +60,7 @@ body{
 	float: right;
 	height: 500px;
 	width: 150px;
+	padding: 10px;
 }
 
 
@@ -97,15 +98,17 @@ body{
 }
 
 #footer {
-    color: black;
-		font-family: 'Lora', Georgia, "Times New Roman", serif;
+    border-top: 1px solid #ccc;
+}
+
+#footer p {
     font-size: 0.8em;
-    border-top: 1px solid black;
 }
 
 img {
 	max-width:100%;
 	border: none;
+	padding: 20px;
 }
 
 .navcontainer {
@@ -180,7 +183,3 @@ flex-wrap: wrap;
 .sidebar {
       flex: 1 auto;
 		}
-
-.aside-2 {
-	order: 3;
-}
