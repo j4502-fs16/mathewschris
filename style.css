@@ -58,6 +58,8 @@ body{
   background: skyblue;
 	display: block;
 	align-items: flex-end;
+	height: 100%;
+
 }
 
 
@@ -162,9 +164,12 @@ flex-wrap: wrap;
 	}
 }
 
-	.aside, .footer {
+	.aside {
   flex: 1 100%;
   padding: 10px;
+	display: block;
+	height: 100px;
+
 }
 
 .wrapper {
