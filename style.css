@@ -23,6 +23,10 @@ body{
 	background-color:#96CEB4;
 }
 
+.main {
+	float: left;
+}
+
 #container{
     width: 95%;
     background-color: #e8e9e9;
@@ -55,11 +59,11 @@ body{
 }
 
 #sidebar {
-  background: skyblue;
+  background: white;
 	display: block;
 	float: right;
 	height: 500px;
-	width: 150px;
+	width: 500px;
 	padding: 10px;
 }
 
@@ -99,6 +103,7 @@ body{
 
 #footer {
     border-top: 1px solid #ccc;
+		clear: both;
 }
 
 #footer p {
@@ -128,9 +133,12 @@ flex-wrap: wrap;
 		width: 95%;
 		margin: 1em auto;
 	}
+	#sidebar {
+		display: none;
+	}
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 560px) {
 	.navcontainer {
 		flex-direction: column;
 		justify-content: flex-start;
@@ -139,9 +147,12 @@ flex-wrap: wrap;
 		width: 95%;
 		margin: 1em auto;
 	}
+	#sidebar {
+		display: block;
+	}
 }
 
-@media (min-width: 599px) {
+@media screen and (min-width: 599px) {
 	.navcontainer {
 		flex-direction: row;;
 		justify-content: flex-start;
@@ -154,7 +165,7 @@ flex-wrap: wrap;
 }
 
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
 	.navcontainer {
 		flex-direction: row;
 		justify-content: flex-start;
@@ -166,12 +177,6 @@ flex-wrap: wrap;
 		margin: 1.5em auto;
 	}
 }
-
-	.aside {
-  flex: 1 100%;
-  padding: 10px;
-	display: block;
-	height: 100px;
 
 }
 
