@@ -55,7 +55,6 @@ body{
 	border-radius: 3px;
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 	font-size: 1rem;
-	font-style: bold;
 }
 
 #sidebar {
@@ -176,8 +175,6 @@ flex-wrap: wrap;
 		max-width: 60em;
 		margin: 1.5em auto;
 	}
-}
-
 }
 
 .wrapper {
