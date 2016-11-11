@@ -19,9 +19,50 @@ h2 {
 font-size: 1.5rem;
 }
 
+/*added 11-11*/
+
 body{
-	background-color:#96CEB4;
+	background-color:#0C1421;
 }
+
+nav ul li {
+    display: block;
+    border-top: 1px #79896d solid;
+		font-size: 1.25em;
+}
+
+nav a {
+    color: #f8ecc2;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    background-color: #3E35E0;
+    margin: 0;
+    padding: 0 10px;
+		font-size: 100%;
+}
+
+header h1 {
+    order: 2;
+    font-size: 2em;
+}
+
+nav ul {
+    display: none;
+}
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+/*finished addition 11-11*/
 
 .main {
 	float: left;
@@ -29,15 +70,12 @@ body{
 
 #container{
     width: 95%;
-    background-color: #e8e9e9;
+    background-color: #EFE7DD;
     margin: 0 auto;
     text-decoration: none;
 }
 
-.header, .main, .footer{
-  flex: 1 100%;
-  padding: 10px;
-}
+
 
 .navcontainer {
 	padding: 5px;
@@ -112,7 +150,9 @@ body{
 img {
 	max-width:100%;
 	border: none;
-	padding: 20px;
+	align-self: center;
+	padding-left: 20px;
+	padding-right: 20px
 }
 
 .navcontainer {
@@ -185,3 +225,31 @@ flex-wrap: wrap;
 .sidebar {
       flex: 1 auto;
 		}
+
+/*added 11-11*/
+
+@media screen and (min-width: 700px){
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
+}
+
+/*ended 11-11*/
